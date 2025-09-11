@@ -54,10 +54,8 @@ npm run dev
   
 ### Docker Deployment
 Build and run with Docker:
-```bash  
-npm install
-docker build -t lvgl-designer .  
-docker run -p 3000:3000 lvgl-designer  
+```bash    
+docker run -d -p 3000:3000 mgreathouse/lvgl-esphome-designer:latest  
   ```
 Or use Docker Compose:  
 ```bash
