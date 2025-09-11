@@ -1,6 +1,9 @@
 # LVGL Widget Designer
 
-A drag-and-drop designer for creating LVGL interfaces for ESPHome projects. Drag and drop widgets onto a 320x240 canvas and generate ESPHome YAML configuration.
+A drag-and-drop designer for creating LVGL interfaces for ESPHome projects. Drag and drop widgets onto a 320x240 canvas and generate ESPHome YAML configuration.  
+
+### Demo
+[https://lvgl.codemov.com]https://lvgl.codemov.com
 
 ## Features
 
