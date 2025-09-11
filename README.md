@@ -24,27 +24,20 @@ A drag-and-drop designer for creating LVGL interfaces for ESPHome projects. Drag
    - npm or yarn: Package manager  
    - Operating System: Any OS that supports Node.js (Windows, macOS, Linux)  
 
-## Installation Commands
+## Production Installation Commands
 
  - Create a project directory (eg. /opt/esphome-lvgl)
- - Ensure port 3000 is unused on your machine
  - Clone this repo
 ```bash
  git clone https://github.com/c0deirl/ESPHome-VGL.git
 ```
- - Build & Install
+ - Compile and Build
  ```bash 
  npm install
- bash npm run build
- bash npm run start
+ npm run build
+ npm run build-static
  ```
-
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
+ - Static assessts should be saved to the "dist" folder. Copy those to your web server.
 
 ### Development Setup
 
@@ -56,10 +49,13 @@ npm install
 ```bash
 npm run dev  
 ```
+
+ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   
 ### Docker Deployment
 Build and run with Docker:
 ```bash  
+npm install
 docker build -t lvgl-designer .  
 docker run -p 3000:3000 lvgl-designer  
   ```
