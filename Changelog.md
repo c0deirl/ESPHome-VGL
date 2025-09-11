@@ -1,4 +1,4 @@
-Key improvements in this version:
+##Version 1.0
 
     Proper ESPHome YAML Format:
         Removed the lambda syntax entirely
@@ -21,7 +21,7 @@ Key improvements in this version:
         Proper spacing and organization
         Ready-to-use ESPHome configuration
 
-
+##Version 1.1
 
     Dark Mode Implementation:
         Added a state variable darkMode to track the current theme
@@ -47,7 +47,7 @@ Key improvements in this version:
         Smooth visual transition between themes
 
 
-
+##Version 1.2
 
 Key improvements in this version:
 
@@ -72,7 +72,7 @@ Key improvements in this version:
         Properly formatted YAML output with comments
 
 
-
+##Version 1.3
 
     Smaller Dark Mode Toggle:
         Changed the theme toggle button to a small icon-only button
@@ -94,7 +94,7 @@ Key improvements in this version:
 
 The dark mode toggle is now much smaller and only shows the icon, while the GitHub link is clearly visible in the footer. Both elements are positioned appropriately without taking up too much space.
 
-
+##Version 1.4
 
 Key improvements in this version:
 
